@@ -9,5 +9,7 @@
 >> 2. 若是有不足的資料，LEFT JOIN會用NULL來補齊。  
 >> 3. 而存在NULL也代表著，該次visit並沒有進行transaction。  
 >> 4. 所以只統計那些NULL的列，就可以達到答案。  
+>> // LEFT JOION 效果
+>> ![image](https://raw.githubusercontent.com/r3dia1/SQL-50-challenge/main/1581.%20Customer%20Who%20Visited%20but%20Did%20Not%20Make%20Any%20Transactions/LEFT%20JOIN%20%E6%95%88%E6%9E%9C.jpg)
   
 >RUN TIME comparation: Other faster than mine :(
