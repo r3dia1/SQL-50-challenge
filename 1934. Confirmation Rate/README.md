@@ -1,6 +1,6 @@
 # 1934. Confirmation Rate
 > Solution: 
->> 1. SELECT with conditions:
+>> 1. SELECT with conditions:  
 >> CASE  
 >> WHEN condition THEN result  
 >> [WHEN···]  
