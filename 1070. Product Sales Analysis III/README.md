@@ -1,4 +1,3 @@
-# 550. Game Play Analysis IV
-> Solution: Subquery with date_add
->> Q: How to choose the day after the day they first logged in?
->> A: Use DATE_ADD(MIN(event_date), INTERVAL 1 DAY).
+# 1070. Product Sales Analysis III
+> ## Solution: Subquery
+>> Choose the rows with distinct product_id which contains the first year's information with subquery and then output the required table.
