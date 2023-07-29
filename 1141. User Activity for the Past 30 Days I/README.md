@@ -1,4 +1,3 @@
-# 550. Game Play Analysis IV
-> Solution: Subquery with date_add
->> Q: How to choose the day after the day they first logged in?  
->> A: Use DATE_ADD(MIN(event_date), INTERVAL 1 DAY).
+# 1141. User Activity for the Past 30 Days I
+> ## Solution: DATEDIFF(expr1, expr2) & COUNT(DISTINCT )
+>> // DATEDIFF(expr1, expr2) = expr1 - expr2
